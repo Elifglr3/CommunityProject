@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_host_fragment"
+    app:startDestination="@id/bannerFragment">
+    <fragment
+        android:id="@+id/bannerFragment"
+        android:name="com.elifguler.multicamp.community.BannerFragment"
+        android:label="fragment_banner"
+        tools:layout="@layout/fragment_banner" >
+        <action
+            android:id="@+id/action_bannerFragment_to_detailFragment"
+            app:destination="@id/detailFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/detailFragment"
+        android:name="com.elifguler.multicamp.community.DetailFragment"
+        android:label="fragment_detail"
+        tools:layout="@layout/fragment_detail" >
+        <argument
+            android:name="argumentx"
+            app:argType="com.elifguler.multicamp.community.data.model.MulticampItem" />
+    </fragment>
+</navigation>

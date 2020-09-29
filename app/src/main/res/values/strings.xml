@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">Community</string>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="textview">TextView</string>
+    <string name="banner">banner</string>
+    <string name="textview2">TextView</string>
+    <string name="leadphoto">Leadphoto</string>
+    <string name="textview1">TextView</string>
+    <string name="twitterlink">twitterlink</string>
+    <string name="participationlink">participationlink</string>
+    <string name="youtubelink">youtubelink</string>
+    <string name="instagramlink">instagramlink</string>
+    <string name="textt">DSC Kıbrıs, Google Teknolojilerine ilgi duyan, kendisini her anlamda geliştirmek isteyen gençlerden oluşan Google Developers destekli geliştirici topluluğudur</string>
+</resources>
