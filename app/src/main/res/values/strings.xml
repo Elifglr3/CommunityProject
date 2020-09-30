@@ -11,4 +11,7 @@
     <string name="youtubelink">youtubelink</string>
     <string name="instagramlink">instagramlink</string>
     <string name="textt">DSC Kıbrıs, Google Teknolojilerine ilgi duyan, kendisini her anlamda geliştirmek isteyen gençlerden oluşan Google Developers destekli geliştirici topluluğudur</string>
+    <string name="tools">tools</string>
+    <string name="LeadPhoto">TODO</string>
+    <string name="liderr">Lider</string>
 </resources>

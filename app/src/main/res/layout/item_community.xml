@@ -11,6 +11,7 @@
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="164dp"
+        android:background="@color/awhite"
         android:baselineAligned="false"
         android:contextClickable="true"
         android:orientation="vertical"
@@ -20,22 +21,23 @@
             android:id="@+id/textViewName"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:fontFamily="@font/alice"
+            android:fontFamily="@font/nunito"
             android:padding="8dp"
             android:text="@string/textview"
             android:textAppearance="@style/TextAppearance.AppCompat.Large"
             android:textColor="#000000"
-            tools:text="@tools:sample/first_names" />
+            android:visibility="gone"
+            tools:text="@tools:sample/first_names"
+            tools:visibility="gone" />
 
         <ImageView
             android:id="@+id/imageViewBanner"
-            android:layout_width="wrap_content"
+            android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:adjustViewBounds="true"
             android:contentDescription="@string/banner"
             android:padding="8dp"
             tools:srcCompat="@tools:sample/avatars" />
-
     </LinearLayout>
 
 </androidx.cardview.widget.CardView>

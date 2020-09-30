@@ -25,6 +25,7 @@ class CommunityAdapter(
     override fun onBindViewHolder(holder: CommunityViewHolder, position: Int) {
         val note= multicamp[position]
         holder.bind(note, onClick)
+
     }
 }
 
@@ -33,15 +34,16 @@ fun ViewGroup.inflate(itemCommunity: Int) :View {
     return layoutInflater.inflate(itemCommunity, this,false)
 }
 
+
 class CommunityViewHolder(view: View) : RecyclerView.ViewHolder(view) {
+
     fun bind(multicampItem: MulticampItem, onClick: (MulticampItem) -> Unit) {
         itemView.imageViewBanner.load(multicampItem.banner)
         itemView.textViewName.text = multicampItem.name
-        itemView.textViewDescription.text= multicampItem.description
+        /*itemView.textViewDescription.text= multicampItem.description
         itemView.LeadName.text= multicampItem.leader.name
-        itemView.LeadPhoto.load(multicampItem.leader.photo)
-
-        itemView.setOnClickListener {
+        itemView.LeadPhoto.load(multicampItem.leader.photo)*/
+        itemView.imageViewBanner.setOnClickListener {
             onClick(multicampItem)
         }
     }
